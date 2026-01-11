@@ -3,7 +3,6 @@ import "./globals.css";
 import VisualEditsMessenger from "../visual-edits/VisualEditsMessenger";
 import ErrorReporter from "@/components/ErrorReporter";
 import Script from "next/script";
-import AutoMagnetic from "@/components/ui/AutoMagnetic";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -37,7 +36,6 @@ export default function RootLayout({
         />
         {children}
         <VisualEditsMessenger />
-        <AutoMagnetic />
       </body>
     </html>
   );
